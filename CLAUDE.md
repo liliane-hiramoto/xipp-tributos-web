@@ -19,7 +19,7 @@ primeiro** e vem para cá por PR (ver `REPLICAR.md`).
 | `src/app/layout.tsx`, `src/app/login/page.tsx`, `src/components/Sidebar.tsx`, `package.json` | nome "Xipp · Tributos" |
 | `src/app/page.tsx` | acesso por `trib_is_user()` / `trib_is_admin()` (régua de `user_modules`, módulo `tributos`), não pelo módulo `fiscal` |
 | `supabase/migrations/` | vazio de propósito: as tabelas `trib_*` nascem no SETUP do `portal-xipp` |
-| `src/app/globals.css` | ⚠️ ainda a paleta neutra do canônico: trocar pela da Xipp junto com o portal |
+| `src/app/globals.css` | cores da Xipp (`--brand: #26272e`, `--accent: #03c96a`), as mesmas do portal |
 
 ## Ambiente / deploy
 - Projeto na Vercel **`xipp-tributos-web`** (o Portal aponta para

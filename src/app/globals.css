@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  /* Paleta neutra (golden-source) — instâncias sobrescrevem a cor */
-  --brand: #334155;
-  --brand-soft: #e2e8f0;
-  --accent: #1ec2df;
+  /* Marca da Xipp (a mesma do Portal Xipp, site xipp.com.br) */
+  --brand: #26272e;
+  --brand-soft: #e8fbf1;
+  --accent: #03c96a;
 }
 
 html,
